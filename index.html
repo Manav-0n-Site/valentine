@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine-by-manav</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Valentine's Message</h1>
+            <p>Express your feelings in a special way ~Manav</p>
+            <div class="hearts" id="hearts"></div>
+        </div>
+        
+        <div class="message-section">
+            <div class="input-group">
+                <label for="recipient">To:</label>
+                <input type="text" id="recipient" placeholder="Enter your special person's name">
+            </div>
+            
+            <div class="input-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" placeholder="Pour your heart out..."></textarea>
+            </div>
+            
+            <button class="btn" id="previewBtn">
+                <i class="fas fa-heart"></i> Create Your Message
+            </button>
+            
+            <div class="preview-section" id="previewSection">
+                <h3>Your Valentine's Message</h3>
+                <p id="messagePreview"></p>
+                
+                <div class="share-buttons">
+                    <div class="share-btn" id="copyBtn">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <div class="share-btn" id="whatsappBtn">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="share-btn" id="twitterBtn">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Made with <i class="fas fa-heart" style="color: #ff758c;"></i> for Valentine's Day 2023 by Manav</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

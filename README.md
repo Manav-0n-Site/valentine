@@ -1,3 +1,9 @@
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
 # ❤️ Valentine's Day Message Creator  
 
 > **Made with ❤️ by Manav, a 17-year-old passionate developer.**  
